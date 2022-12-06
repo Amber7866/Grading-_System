@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading System</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="columns column1">
+            <div>
+                <h1>Grading System</h1>
+            </div>
+            <div class="labelInput">
+                <label>English</label>
+                <input type="text" id="english"/>
+            </div>
+            <div>
+                <label>Math</label>
+                <input type="text" id="math"/>
+            </div>
+            <div>
+                <label>Physics</label>
+                <input type="text" id="physics" />
+            </div>
+            <div>
+                <label>Computer</label>
+                <input type="text" id="computer"/>
+            </div>
+            <div>
+                <label>Science</label>
+                <input type="text" id="science"/>
+            </div>
+            <div class="button">
+                <input type="button" value="Total" onclick="getTotal()"/>
+                <input type="button" value="Average" onclick="getAverage()"/>
+                <input type="button" value="Grade" onclick="getGrade()"/>
+                <input type="button" value="Add" id="addStudent"/>
+                <input type="button" value="Class Avg" id="classAvg" onclick="getClassAvg()"/>
+                <!-- <input type="button" value="Update" id="updateStudent"/> -->
+            </div>
+        </div>
+        
+        <div class="columns column2">
+            <div class="total">
+                <h1>Total</h1>
+                <label id="total"></label>
+            </div>
+            <div>
+                <h1 class="average">Average</h1>
+                <label id="average"></label>
+
+            </div>
+            <div>
+                <h1 class="grade">Grade</h1>
+                <label id="grade"></label>
+            </div>
+            <div>
+                <h1 class="classAverage">Class Average</h1>
+                <label id="class-Avg"></label>
+            </div>
+            
+           
+            
+           
+           
+            
+        </div>
+    </section>
+
+    <section>
+        <h1>Students List</h1>
+        <div id="studentList"></div>
+    </section>
+    <script src="app.js" lang="javascript"></script>
+</body>
+</html>
+

@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+  
+   width: 700px;
+   height: 400px;
+   
+  
+   
+   
+}
+
+.columns {
+    display: inline-block;
+    vertical-align: top;
+    width: 320px;
+    height: 400px;  
+   
+}
+
+.column1 {
+    background-color: cadetblue;
+    
+   
+}
+
+.column2 {
+    background-color: brown;
+   
+   
+   
+}
+
+.labelInput {
+    padding-bottom: 5px;
+}
+
+
+
+h1 {
+    color: aliceblue;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+   
+}
+
+.button {
+   margin-top: 10px; 
+   text-align: center;
+}
+
+.average {
+    margin-top: 20px;
+}
+
+.grade {
+    margin-top: 20px;
+}
+
+.classAverage {
+    margin-top: 20px;
+}
+
+.student {
+    background-color: lightcyan;
+}
+
+
